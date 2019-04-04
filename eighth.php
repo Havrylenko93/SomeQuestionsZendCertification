@@ -21,6 +21,7 @@ ________________________________________________________________________________
 the correct answer is - B
 
 The major differences to echo are that print only accepts a single argument and always returns 1.
+The major differences to print are that echo accepts an argument list and doesn't have a return value.
 __________________________________________________________________________________________________________________
 
 ANSW;
