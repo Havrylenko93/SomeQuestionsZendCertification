@@ -1,35 +1,26 @@
 <?php
 
-$question = <<<QUE
-What is the output of the following code?
+$question = <<<'QUE'
+What does the __FILE__ constant contain?
 
-echo "1" + 2 * "0x02";
+A. The filename of the current script.
 
-A. 1
+B. The full path to the current script.
 
-B. 3
+C. The URL of the request made.
 
-C. 5
-
-D. 20
-
-E: 7
-
-Answer: 
+D. The path to the main script.
 
 QUE;
 
 $answer = <<<ANSW
 __________________________________________________________________________________________________________________
 
-the correct answer is - A
-но в доке написано - C............. i dont know
+the correct answer is - B
 __________________________________________________________________________________________________________________
 
 ANSW;
 
 echo nl2br($question) . nl2br(PHP_EOL) . nl2br($answer);
 
-echo "1" + 2 * "0x02";
-
-
+echo  __FILE__;
